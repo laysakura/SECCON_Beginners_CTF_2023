@@ -31,6 +31,7 @@ void win() {
 }
 
 void __show_stack(void *stack) {
+  
   unsigned long *ptr = stack;
   printf("\n %-19s| %-19s\n", "[Addr]", "[Value]");
   puts("====================+===================");
